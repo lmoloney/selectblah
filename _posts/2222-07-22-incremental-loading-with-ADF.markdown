@@ -1,0 +1,1 @@
+@concat(pipeline().parameters.tableName, '-', formatDateTime(pipeline().parameters.actualRunTime, 'yyyy'), formatDateTime(pipeline().parameters.actualRunTime,'MM'), formatDateTime(pipeline().parameters.actualRunTime,'dd'),' ' , formatDateTime(pipeline().parameters.actualRunTime,'hh'), formatDateTime(pipeline().parameters.actualRunTime, 'mm'), '.txt')

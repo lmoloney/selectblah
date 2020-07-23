@@ -8,6 +8,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://selectblah.com/" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
+# Site Settings
+site-name: SELECT [Blah]
+site-img: site/selectblah.png
+about-site: something something dark side
+
 # Author Settings
 author: Luke Moloney # add your name
 author-img: site/luke.jpg # add your photo
@@ -18,8 +23,12 @@ social-github: lmoloney # add your Github handle
 social-linkedin: moloneyluke # add your Linkedin handle
 social-email: luke@lm.id.au # add your Email address
 
+# Additional Params to make blogging a little easier
+media-author: 
+
+
 # Disqus
-discus-identifier: mr-brown # add your discus identifier
+discus-identifier: #mr-brown # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics

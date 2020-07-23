@@ -5,6 +5,13 @@ layout: default
 <aside class="sidebar">
   <header>
     <div class="about">
+      <div class="cover-site-image">
+        <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.site-img %}{{site.site-img}}{% endif %}" alt="{{site.site-name}}"></a>
+      </div>
+      <!--
+      <div class="site-name">{{site.site-name}}</div>
+      -->
+      <p>{{site.about-site}}</p>
       <div class="cover-author-image">
         <a href="{{site.baseurl}}/"><img src="{{site.baseurl}}/assets/img/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>

@@ -31,7 +31,7 @@ media-author:
 discus-identifier: #mr-brown # add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: UA-173962239-1 # Google Analytics
 
 # Build Settings
 markdown: kramdown
